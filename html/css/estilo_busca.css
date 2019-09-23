@@ -1,0 +1,287 @@
+/*
+*  CSS Document - busca google
+*  Autor: Andressa Kroeff Pires (SINFO)
+*  E-mail: andressa@info.ufrn.br
+*  Data: 16/05/2012
+*/
+
+section .cse a, #centro .cse input, #centro .cse img {
+	outline: 0;
+}
+
+section .cse .gsc-control-cse, .gsc-control-cse {
+	width: 100%;
+	height: auto !important;
+	padding: 0;
+	background: none !important;
+}
+
+	.cse .gsc-control-cse {
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 12px;
+		border: none;
+		background: none !important;
+		color: #666666;
+	}
+
+	section .cse table, #centro .cse table tr, #centro .cse table tr td {
+		border: none;
+		height: auto;
+	    padding: 0
+	}
+
+	/* tamanho textos */
+	.cse .gs-title, .gs-title, .cse div.gs-title, div.gs-title, .cse .gs-snippet, .gs-snippet {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.cse input.gsc-input, input.gsc-input {
+		background: transparent;
+		height: 23px;
+		width:800px;
+		border: 1px solid #d5d5d5;
+		margin: 0;
+		padding: 5px;
+		color:#858585;
+		font-size: 12px;
+		font-family: Verdana, Geneva, sans-serif;
+
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+
+	.cse input.gsc-input:focus, input.gsc-input:focus {
+		border: 1px solid #a5b9ce;
+	}
+
+	
+	.cse table.gsc-search-box td.gsc-input, table.gsc-search-box td.gsc-input {
+		padding-right: 5px !important;
+	}
+
+	.cse input#gsc-i-id1, input#gsc-i-id1 {
+		background-position: 5px center;
+	}
+
+	.cse input.gsc-search-button, input.gsc-search-button {
+		border: none;
+		background:#4582bf;
+		height: 35px;
+		width: 80px;
+		color:#fff;
+		cursor:pointer;
+		text-align:center;
+		vertical-align:top;
+		font-size: 13px;
+		padding:0;
+		font-family: Verdana, Geneva, sans-serif;
+		font-weight:normal;	
+		margin-right: 4px !important;	
+	}
+	
+	td.gsc-clear-button {
+		width:30px !important;
+		height:35px !important;
+	}
+	
+	div.gsc-clear-button {
+		background-position: center center;
+		background-repeat: no-repeat;
+		width:30px !important;
+		height:35px !important;
+		cursor: pointer;
+		display: inline;
+		margin-left: 7px !important;
+		margin-right: 0 !important;
+		text-align: right;
+		
+	}
+	
+	
+	.gsc-wrapper, .gsc-thinWrapper {
+		display: block;
+		float: none;
+		margin: 0px auto;
+		padding: 0 5px 0 0;
+		width: 98%;
+		color: #666666;
+	}
+	
+	#adBlock, .gsc-adBlock, .gsc-adBlockVertical {
+		display: none !important;
+		float: none !important;
+		background:#FFF !important;
+		color:#FFF !important;
+		border:none !important;
+	}
+
+	.gs-no-results-result .gs-snippet {
+		background-color: #ba061b;
+		border: 1px solid #ba061b;
+	}
+
+	.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+		background:#f5e0e0  !important;
+		border: 1px solid #efa9a9  !important;
+		color: #ec413e !important;
+		font-weight: bold;
+		width: auto;
+		height:30px !important;
+		text-align: center;
+		padding: 20px 0 0 0;
+
+		-moz-text-shadow: 1px 1px 0 #f0f5f8;
+		-webkit-text-shadow: 1px 1px 0 #f0f5f8;
+		text-shadow: 1px 1px 0 #f0f5f8;
+	}
+
+	.gsc-tabHeader.gsc-tabhInactive {
+		border-color: #ba061b;
+		background: none;
+	}
+
+	.gsc-tabHeader.gsc-tabhActive {
+		border-color: #ba061b;
+		background: none;
+	}
+
+	.gsc-tabsArea {
+		border-color: #E5E5E5;
+	}
+
+	.cse .gsc-results, .gsc-results {
+		background: none !important;
+		border-bottom: none !important;
+	}
+	
+	.gsc-webResult.gsc-result {
+		font-size: 9pt;
+		font-family: Verdana, Geneva, sans-serif;
+		border-color: #E5E5E5;
+		border-bottom: 1px dotted #D5EEF6;
+		background: none !important;
+	}
+
+	.gsc-webResult.gsc-result:hover {}
+	
+	.cse .gs-title, .gs-title, .cse div.gs-title, div.gs-title, .cse .gs-snippet, .gs-snippet, .cse .gs-spelling, .gs-spelling {
+		font-size: 9pt;
+		font-family: Verdana, Geneva, sans-serif;
+		line-height: 12px;
+		font-style: normal;
+		background: none;
+	}
+
+	.cse .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link, .cse .gs-webResult.gs-result a.gs-title:link b, .gs-webResult.gs-result a.gs-title:link b, .cse .gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited, .cse .gs-webResult.gs-result a.gs-title:visited b, .gs-webResult.gs-result a.gs-title:visited b, .cse .gs-webResult.gs-result a.gs-title:hover, .gs-webResult.gs-result a.gs-title:hover, .cse .gs-webResult.gs-result a.gs-title:hover b, .gs-webResult.gs-result a.gs-title:hover b, .cse .gs-webResult.gs-result a.gs-title:active, .gs-webResult.gs-result a.gs-title:active, .cse .gs-webResult.gs-result a.gs-title:active b, .gs-webResult.gs-result a.gs-title:active b, .cse .gsc-cursor-page, .gsc-cursor-page, .cse a.gsc-trailing-more-results:link, a.gsc-trailing-more-results:link, .cse .gs-spelling a, .gs-spelling a {
+    	
+		font-weight: bold;
+		font-style: normal;
+		font-size: 13px !important;
+		background: none !important;
+	}
+
+	a.gs-title, a.gs-title:link, a.gs-title:visited, a.gs-title:active, a.gs-title:hover b, a.gs-title:link b, a.gs-title:visited b, a.gs-title:active b {
+		color: #023e61;
+		font-weight: bold;
+	}
+
+	a.gs-title:hover {
+		text-decoration: underline;
+		color: #3f94c7 !important;
+	}
+
+	.gsc-cursor-page {
+		color: #ba061b;
+	}
+
+	a.gsc-trailing-more-results:link {
+		color: #ba061b;
+	}
+	
+	.gs-webResult.gs-result .gs-snippet {
+		font-size: 9pt;
+		color: #666666;
+		line-height: 16px !important;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl, .gs-webResult.gs-result .gs-visibleUrl-short {
+		color: #666666;
+		font-style: italic;
+		margin: 5px 0 0;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl-short {
+		display: none;
+	}
+
+	.gs-webResult.gs-result .gs-visibleUrl-long {
+		display: block;
+	}
+
+	.gsc-cursor-box {
+		border-color: #B9DAF4;
+	}
+
+	.gsc-results .gsc-cursor-box .gsc-cursor-page {
+		text-decoration: none !important;
+	}
+
+	.gsc-results .gsc-cursor-page {
+		color: #023e61  !important;
+		border-color: #bcbcbc;
+		background-color: #FFFFFF;
+		text-shadow: none !important;
+	}
+
+		.gsc-results .gsc-cursor-page:hover {
+			color: #3f94c7  !important;
+		}
+
+	.gsc-results .gsc-cursor-page.gsc-cursor-current-page, .gsc-results .gsc-cursor-page.gsc-cursor-current-page:hover {
+		background: #023e61!important;
+		padding: 0 4px;	
+		color: #ffffff !important;
+	}
+
+	.gs-promotion.gs-result {
+		border-color: #ba061b;
+		background-color: #EEF8FB;
+	}
+	.gs-promotion.gs-result a.gs-title:link {
+		color: #023e61;
+	}
+	.gs-promotion.gs-result a.gs-title:visited {
+		color: #023e61;
+	}
+	.gs-promotion.gs-result a.gs-title:hover {
+		color: #3f94c7 !important;
+	}
+	.gs-promotion.gs-result a.gs-title:active {
+		color: #023e61;
+	}
+	.gs-promotion.gs-result .gs-snippet {
+		color: #023e61;
+	}
+	.gs-promotion.gs-result .gs-visibleUrl,
+	.gs-promotion.gs-result .gs-visibleUrl-short {
+		color: #023e61;
+	}
+
+	.cse .gsc-webResult, .gsc-webResult, .gsc-webresult .gsc-result, .gsc-imageResult-classic, .gsc-imageResult-column {
+		border-bottom: 1px dotted #D5EEF6;
+	}
+
+	a.gs-title:hover {
+		text-decoration: underline;
+		color: #3f94c7 !important;
+	}
+
+	.cse .gs-webResult.gs-result a.gs-title:hover b, .gs-webResult.gs-result a.gs-title:hover b {
+		color: #3f94c7;
+	}
+
+	.cse .gsc-branding, .gsc-branding {
+    display: none;
+	}

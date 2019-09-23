@@ -1,0 +1,107 @@
+
+/*
+	Slideshow
+*/
+
+.slide a img {
+	width: 515px;
+	height: 321px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:515px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	float: left;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:515px;
+	height:321px;
+	display:block;
+	float: left;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	float:left;
+	display:block;
+	z-index:101;
+}
+
+#slides .prev {
+	margin-right: 5px; 
+	opacity: .75;
+	-webkit-transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	transition: opacity .1s ease-in-out;
+}
+
+#slides .prev:hover {
+	opacity: 1;
+}
+#slides .next {
+	opacity: .75;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;	
+}
+
+#slides .next:hover {
+	opacity: 1;
+}
+
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-25px;
+	left:0;
+	height:45px;
+	padding:4px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.6);
+	width:540px;	
+	border-top:1px solid #000;kk
+}
+
+#prev {
+	width: 46px;
+	height: 321px;
+	margin-right:5px;
+	float: left;
+	background: url(../img/arrow-prev-off.gif) no-repeat;
+}
+
+#next {
+	width: 46px;
+	height: 321px;
+	margin-left: 5px;
+	float: left;
+	background: url(../img/arrow-next-off.gif) no-repeat;
+
+}
