@@ -1,4 +1,4 @@
-# Edufrn
+## Sobre
 Site estático desenvolvido para alguns setores da UFRN
 
 ## Tecnologias
